@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title -->
+    <title>JMendes Portfolio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/extends.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar__content max-width mb-0">
+        <h2>JMendes</h2>
+        <ul class="navbar__links">
+          <li><a href="#header">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#footer">Contato</a></li>
+        </ul>
+        <div class="navbar__mobile">
+          <img src="assets/menu.svg" alt="menu" class="burguer" />
+          <ul class="mobile__links">
+            <li><a href="#header">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#footer">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- header -->
+    <header id="header" class="max-width">
+      <div class="header__left">
+        <h1>Olá! Sou João Mendes Desenvolvedor Frontend</h1>
+        <p>
+          Desenvolvedor frontend com 1 ano de experiência trabalhando como freelancer. Sou apaixonado por criar
+          soluções tecnológicas que resolvem problemas reais e que agregam valor
+          aos usuários.
+        </p>
+        <a href="#about" class="btn btn-primary">Saiba Mais!</a>
+      </div>
+      <div class="header__right">
+        <div class="header__image">
+          <img src="assets/Joao2.jpeg" alt="João Mendes" class="joao" width="385px"/>
+          <img src="assets/abstract.svg" alt="background" class="background" />
+        </div>
+      </div>
+    </header>
+
+    <!-- Sobre -->
+    <section id="about" class="about max-width">
+      <div class="about__left">
+        <h2 class="secondary-title">Além do código: quem sou eu?</h2>
+        <p>
+          Que tal se conectar comigo nas redes sociais abaixo e saber mais sobre
+          meu trabalho?
+        </p>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/jaorafa_/"><img src="assets/instagram.svg" alt="Instagram" /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/jo%C3%A3o-raphael-mendes-66b65b23a/"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="about__right">
+        <h3 class="tertiary-title mb-m">
+          Desenvolvedor frontend apaixonado por tecnologia
+        </h3>
+        <p>
+          Olá, eu sou João Raphael Mendes, um desenvolvedor Frontend apaixonado 
+          por aprender cada vez mais e resolver problemas reais que agreguem valor 
+          ao usuário. Com um 1 ano de experiência em desenvolvimento web, tenho trabalhado 
+          com diversas tecnologias e plataformas e estou em busca da minha primeira 
+          oportunidade de trabalho.
+        </p>
+        <p>
+          Eu amo o desafio de encontrar soluções inovadoras e criativas para
+          problemas complexos e estou sempre buscando aprender e crescer como
+          profissional.
+        </p>
+      </div>
+    </section>
+
+    <!-- habilidades -->
+    <section id="skills" class="skills">
+      <div class="skills__content max-width">
+        <h2 class="tertiary-title">Minha caixinha de ferramentas</h2>
+        <!-- <p class="description">
+          Descubra as habilidades e ferramentas que domino e que me permitem
+          criar soluções criativas e funcionais para meus clientes.
+        </p> -->
+        <ul>
+          <li class="skills__item">
+            <div class="image-container">
+              <img src="assets/notebook.png" alt="Desenvolvimento Web" />
+            </div>
+            <h3>Desenvolvimento Web</h3>
+            <p>
+              Experiência em desenvolvimento fullstack com foco em tecnologias
+              modernas.
+            </p>
+          </li>
+          <li class="skills__item">
+            <div class="image-container">
+              <img class="img_tech" src="assets/tecnologia.png" alt="tecnologia" />
+            </div>
+            <h3>Principais Tecnologias</h3>
+            <p>
+              Html, Css, Javascript, React, Node.js e Firebase.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projects" class="projects max-width">
+      <div class="projects__content">
+        <h2 class="secondary-title">Projetos em Destaque</h2>
+        <!-- <p>
+          De ideias abstratas a projetos bem-sucedidos, aqui estão alguns dos
+          meus trabalhos mais recentes
+        </p> -->
+      </div>
+      <ul>
+        <!-- Barbearia Landing-page -->
+        <li>
+          <div class="image">
+            <img src="assets/barbearia.jpeg" alt="barbearia" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Barbearia landing page
+            </h3>
+            <p>
+              Landing page completa, com animações. Feita com html, css, sass e usando a biblioteca "AOS".
+            </p>
+            <a href="https://barbershopjm.vercel.app/">Leia mais &rarr;</a>
+          </div>
+        </li>
+        <!-- Login-Dark-Theme -->
+        <li class="projects__reversed-list">
+          <div class="image">
+            <img src="assets/Login-dark-theme.jpeg" alt="Login-Dark-Theme" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Login dark theme
+            </h3>
+            <p>
+              Tela de Login, feita com o tema dark, usando Html e Css.
+            </p>
+            <a href="#">Leia mais &rarr;</a>
+          </div>
+        </li>
+        <!-- netflix clone -->
+        <li>
+          <div class="image">
+            <img src="assets/netflix_clone.jpeg" alt="netflix clone" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Netflix clone
+            </h3>
+            <p>
+              Site desenvolvido usando uma integração com api para trazer os filmes.
+              A estilização foi feita se baseando na Netflix.
+              Desenvolvido com React.
+            </p>
+            <a href="https://netflix-clone-da3fe.web.app">Leia mais &rarr;</a>
+          </div>
+        </li>
+        <!-- memory game -->
+        <li class="projects__reversed-list">
+          <div class="image">
+            <img src="assets/memorygame.jpeg" alt="memory game" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Jogo da memória 
+            </h3>
+            <p>
+              Jogo da memória desenvolvido usando React.
+            </p>
+            <a href="#">Leia mais &rarr;</a>
+          </div>
+        </li>
+        <!-- calculadora -->
+        <li>
+          <div class="image">
+            <img src="assets/calculadora.jpeg" alt="calculadora" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Calculadora
+            </h3>
+            <p>
+              calculadora desenvolvida em Javascript puro.
+            </p>
+            <a href="#">Leia mais &rarr;</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer__content max-width mb-0">
+        <h2 class="tertiary-title mb-s">Vamos conversar?</h2>
+        <p class="mb-m">
+          Ficarei feliz em saber mais sobre seus projetos e como podemos
+          trabalhar juntos. Estou aberto aberto a propostas.
+        </p>
+        <div class="footer__contact mb-m">
+          <span class="mb-m">joaormendes28@gmail.com</span>
+          <span>47 99186-6434</span>
+        </div>
+        <ul class="mb-l">
+          <li>
+            <a href="https://www.instagram.com/jaorafa_/?next=%2F"><img src="assets/instagram.svg" alt="Instagram" /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/jo%C3%A3o-raphael-mendes-66b65b23a/"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+          </li>
+        </ul>
+        <p class="footer__copyright">
+          © 2023 João Raphael Mendes. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+    <!-- script -->
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
